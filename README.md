@@ -90,7 +90,7 @@ IPL-Analysis/
 │
 ├── data/
 │   ├── raw/                  ← Place matches.csv & deliveries.csv here
-│   └── cleaned/              ← Auto-generated: matches_cleaned.csv, deliveries_cleaned.csv
+│   └── cleaned/               ← Auto-generated: matches_cleaned.csv, deliveries_cleaned.csv
 │
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb       ← Cleaning pipeline walkthrough
@@ -216,8 +216,13 @@ Raw CSV Data
 
 ## Screenshots
 
-> Add Power BI dashboard screenshots to `dashboard_images/` folder  
-> and reference them here once created.
+> Chart and dashboard screenshots have not been added yet. Add them to `dashboard_images/` and reference them here, e.g.:
+>
+> ```markdown
+> ![Most Wins](dashboard_images/eda/chart01_most_wins.png)
+> ```
+
+Expected layout once populated:
 
 ```
 dashboard_images/
